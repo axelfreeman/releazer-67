@@ -1,0 +1,19 @@
+# Releazer 67
+
+> Turn shipped code into launch marketing automatically. An AI-agent skill for developers and indie hackers.
+
+## Core
+
+- [SKILL.md](SKILL.md) — the skill: when to use it, prerequisites, procedure, pitfalls, verification.
+- [README.md](README.md) — what Releazer 67 is, who it's for, how to install.
+
+## Key facts
+
+- Releazer 67 scans a repo's code traces (commits, PRs, diffs, changelogs) and generates launch marketing: media pitches, social posts, ad campaigns, training videos, docs, knowledge-base entries.
+- For developers and indie hackers who build products in AI coding agents and want a marketing layer without hiring one.
+- Provide API keys (GitHub, Dev.to, Google Ads, and any channel the launch needs); the skill handles the rest.
+- It does not write product code — it markets what the code shipped.
+
+## How to use
+
+Drop `SKILL.md` into your agent's skills directory, then point the agent at a repo after a release.
