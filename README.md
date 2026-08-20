@@ -36,9 +36,9 @@ Your code already tells the story. Every commit, PR, and diff is a trace of what
 | Video / training | Onboarding videos when a feature needs them |
 | Docs / knowledge base | Updates docs and the KB straight from the release |
 
-## Install
+## Install — runs in any agent
 
-Drop `SKILL.md` into your agent's skills directory, then point the agent at a repo after a release.
+`SKILL.md` is a universal format. Drop it into any agent that loads skills — **Claude Code, Cursor, OpenAI Codex, Hermes**, and the rest. Point it at a repo after a release, and it runs the same marketing playbook with whatever tools that agent has. No SDK, no lock-in.
 
 ```bash
 # Claude Code
@@ -46,7 +46,12 @@ mkdir -p ~/.claude/skills/releazer && cp SKILL.md ~/.claude/skills/releazer/
 
 # Cursor
 mkdir -p .cursor/skills/releazer && cp SKILL.md .cursor/skills/releazer/
+
+# Codex / Hermes / any other SKILL.md agent
+mkdir -p <agent-skills-dir>/releazer && cp SKILL.md <agent-skills-dir>/releazer/
 ```
+
+Releazer is the marketing backend; the agent supplies the tools.
 
 ## Get your beta key
 
