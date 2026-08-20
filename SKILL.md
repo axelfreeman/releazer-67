@@ -34,7 +34,7 @@ After a release, point Releazer at the repo. It scans the traces, extracts what 
 
 ## Procedure
 1. **Scan traces** — `git log --oneline -20`, `git diff` of the release range, recent PRs (`gh pr list`), changelog and README changes. Completion: a plain-language list of what actually changed.
-2. **Extract the story** — one line: what shipped, who it's for, what it gives them.
+2. **Understand the product** — read the logic, not the release claims: work out how the product *actually* works. Then write the story: what shipped, who it's for, what it gives them.
 3. **Rewrite to human language** — turn technical diffs into "what this means for you", stripping jargon.
 4. **Triage importance** — full launch, or just a log entry? Small/dull changes accumulate quietly; meaningful ones get the full package.
 5. **Generate the package** — in every format the release needs:

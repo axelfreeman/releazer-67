@@ -16,12 +16,12 @@ You shipped something. The code is done. But a release nobody hears about might 
 
 ## The idea
 
-Your code already tells the story. Every commit, PR, and diff is a trace of what you built. Releazer 67 reads those traces and turns them into a launch — automatically.
+Your code already contains the marketing — inside the algorithms, the features, the logic. Most developers ignore it because digging it out is hard. Every commit, PR, and diff is a trace of what you built. Releazer 67 reads those traces, understands how the product *actually* works, and turns it into a launch — automatically.
 
 ## How it works
 
 1. **Scan** — reads your repo's traces: commits, PRs, diffs.
-2. **Extract** — figures out what actually shipped.
+2. **Understand** — works out how the product *actually* works, not what the release claims.
 3. **Rewrite** — technical diffs become "what this means for you."
 4. **Triage** — small changes accumulate quietly; meaningful ones get a full launch.
 5. **Generate & distribute** — in every format the release needs.
@@ -65,10 +65,19 @@ The full key flow — a proper API-key server and lead capture — ships with th
 - Solo founders who want a marketing layer without hiring one.
 - Anyone who ships code but never ships the story.
 
+## Docs
+
+- [Supported agents](docs/agents.md) — top 5 with copy-paste install commands
+- [How it works](docs/how-it-works.md) — the pipeline in detail
+- [Example](docs/examples.md) — a release turned into marketing
+- [FAQ](docs/faq.md) — keys, security, pricing, and who it's NOT for
+- [Changelog](CHANGELOG.md)
+
 ## Roadmap
 
 - [x] `SKILL.md` + core workflow
 - [x] `llms.txt` + `AGENTS.md` — AI-citation ready
+- [x] Docs: agents, how-it-works, examples, FAQ
 - [ ] `releazer.online` — landing + key flow + lead capture
 - [ ] MCP wrapper for one-command install
 - [ ] Catalog listings (MCP directories, awesome-lists)
