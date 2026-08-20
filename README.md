@@ -5,6 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Status: Beta](https://img.shields.io/badge/Status-Beta-orange.svg)]()
 [![Type: AI Agent Skill](https://img.shields.io/badge/Type-AI_Agent_Skill-2563eb.svg)]()
+[![Site](https://img.shields.io/badge/Site-releazer.online-2563eb.svg)](https://releazer.online)
 
 Releazer 67 is an AI-agent skill that turns the traces your coding agent already leaves behind — commits, PRs, diffs, changelogs — into launch marketing that reaches real people and gets indexed by Google.
 
@@ -38,9 +39,15 @@ Your code already contains the marketing — inside the algorithms, the features
 
 ## Install — runs in any agent
 
-`SKILL.md` is a universal format. Drop it into any agent that loads skills — **Claude Code, Cursor, OpenAI Codex, Hermes**, and the rest. Point it at a repo after a release, and it runs the same marketing playbook with whatever tools that agent has. No SDK, no lock-in.
+`SKILL.md` is a universal format. Download it, then drop it into any agent that loads skills — **Claude Code, Cursor, OpenAI Codex, Hermes**, and the rest. No SDK, no lock-in.
 
 ```bash
+# 1. Download the skill
+git clone https://github.com/axelfreeman/releazer-67.git && cd releazer-67
+# ...or grab just the skill file:
+curl -O https://raw.githubusercontent.com/axelfreeman/releazer-67/main/SKILL.md
+
+# 2. Drop it into your agent
 # Claude Code
 mkdir -p ~/.claude/skills/releazer && cp SKILL.md ~/.claude/skills/releazer/
 
@@ -55,9 +62,9 @@ Releazer is the marketing backend; the agent supplies the tools.
 
 ## Get your beta key
 
-Beta key: **`RELEAZER-BETA-FREE`**
+Get it now at **[releazer.online/get-key](https://releazer.online/get-key)** — free, no credit card.
 
-The full key flow — a proper API-key server and lead capture — ships with the site at **releazer.online** (coming soon).
+Beta key: **`RELEAZER-BETA-FREE`**
 
 ## Who it's for
 
@@ -78,7 +85,7 @@ The full key flow — a proper API-key server and lead capture — ships with th
 - [x] `SKILL.md` + core workflow
 - [x] `llms.txt` + `AGENTS.md` — AI-citation ready
 - [x] Docs: agents, how-it-works, examples, FAQ
-- [ ] `releazer.online` — landing + key flow + lead capture
+- [x] `releazer.online` — landing + key flow + lead capture
 - [ ] MCP wrapper for one-command install
 - [ ] Catalog listings (MCP directories, awesome-lists)
 
