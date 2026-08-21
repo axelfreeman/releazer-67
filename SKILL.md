@@ -1,7 +1,7 @@
 ---
 name: releazer
 description: Turn shipped code into launch marketing — scan git history, PRs and diffs, then generate media pitches, social posts, ad campaigns, release notes and docs. Use when a developer just shipped a feature or release and wants it announced, needs launch PR, a changelog turned into a launch post, journalists to notice the product, or Google to index it — "launch marketing", "product launch", "announce my release", "PR for my repo".
-version: 0.1.0
+version: 1.0.0
 author: Axel Freeman (axelfreeman)
 license: MIT
 metadata:
@@ -30,12 +30,10 @@ Don't use for: writing product code, or internal-only changes with no external v
   - Any other channel the launch needs (social, media outlets, etc.).
 
 ## How to Run
-Install once with a symlink so `git pull` updates it: `ln -s "$PWD" ~/.agents/skills/releazer` — or drop `SKILL.md` into your agent's skills directory.
-
-After a release, point Releazer at the repo. It scans the traces, extracts what shipped, and produces a marketing package in exactly the formats the release needs.
+Install once (see README), then after a release point Releazer at the repo. It scans the traces, extracts what shipped, and produces a marketing package in exactly the formats the release needs.
 
 ## Procedure
-1. **Scan traces** — run `python3 scripts/scan_traces.py` (in this repo), or `git log --oneline -20` + `git diff` manually. Completion: a plain-language list of what actually changed.
+1. **Scan traces** — use the `scan_traces.py` helper in this repo's `scripts/` directory, or read `git log` + `git diff` manually. Completion: a plain-language list of what actually changed.
 2. **Understand the product** — read the logic, not the release claims: work out how the product *actually* works. Then write the story: what shipped, who it's for, what it gives them.
 3. **Rewrite to human language** — turn technical diffs into "what this means for you", stripping jargon.
 4. **Triage importance** — full launch, or just a log entry? Small/dull changes accumulate quietly; meaningful ones get the full package.
