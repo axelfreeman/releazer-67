@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 — beta
+## 0.1.0
 
 - Initial release of the Releazer 67 skill.
 - Core workflow: scan traces → understand → rewrite → triage → generate → distribute → verify.
