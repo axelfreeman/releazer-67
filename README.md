@@ -6,6 +6,7 @@
 [![Status: Beta](https://img.shields.io/badge/Status-Beta-orange.svg)]()
 [![Type: AI Agent Skill](https://img.shields.io/badge/Type-AI_Agent_Skill-2563eb.svg)]()
 [![Site](https://img.shields.io/badge/Site-releazer.online-2563eb.svg)](https://releazer.online)
+[![skills.sh](https://skills.sh/b/axelfreeman/releazer-67)](https://skills.sh/axelfreeman/releazer-67)
 
 Releazer 67 is an AI-agent skill that turns the traces your coding agent already leaves behind — commits, PRs, diffs, changelogs — into launch marketing that reaches real people and gets indexed by Google.
 

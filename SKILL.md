@@ -1,6 +1,6 @@
 ---
 name: releazer
-description: Turn shipped code into launch marketing automatically.
+description: Turn shipped code into launch marketing — scan git history, PRs and diffs, then generate media pitches, social posts, ad campaigns, release notes and docs. Use when a developer just shipped a feature or release and wants it announced, needs launch PR, a changelog turned into a launch post, journalists to notice the product, or Google to index it — "launch marketing", "product launch", "announce my release", "PR for my repo".
 version: 0.1.0
 author: Axel Freeman (axelfreeman)
 license: MIT
