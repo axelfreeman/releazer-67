@@ -39,23 +39,22 @@ Your code already contains the marketing — inside the algorithms, the features
 
 ## Install — runs in any agent
 
-`SKILL.md` is a universal format. Download it, then drop it into any agent that loads skills — **Claude Code, Cursor, OpenAI Codex, Hermes**, and the rest. No SDK, no lock-in.
+`SKILL.md` is a universal format. Install it with a **symlink** (not a copy), so one `git pull` updates every install at once. Works in Claude Code, Cursor, OpenAI Codex, Gemini CLI, Hermes — any agent that loads skills. No SDK, no lock-in.
 
 ```bash
-# 1. Download the skill
-git clone https://github.com/axelfreeman/releazer-67.git && cd releazer-67
-# ...or grab just the skill file:
-curl -O https://raw.githubusercontent.com/axelfreeman/releazer-67/main/SKILL.md
+git clone https://github.com/axelfreeman/releazer-67.git
 
-# 2. Drop it into your agent
-# Claude Code
-mkdir -p ~/.claude/skills/releazer && cp SKILL.md ~/.claude/skills/releazer/
+# Shared convention — any tool that reads ~/.agents/skills/
+mkdir -p ~/.agents/skills
+ln -s "$PWD/releazer-67" ~/.agents/skills/releazer
 
-# Cursor
-mkdir -p .cursor/skills/releazer && cp SKILL.md .cursor/skills/releazer/
+# Claude Code (global)
+mkdir -p ~/.claude/skills
+ln -s "$PWD/releazer-67" ~/.claude/skills/releazer
 
-# Codex / Hermes / any other SKILL.md agent
-mkdir -p <agent-skills-dir>/releazer && cp SKILL.md <agent-skills-dir>/releazer/
+# Cursor (project-scoped)
+mkdir -p .cursor/skills
+ln -s "$PWD/releazer-67" .cursor/skills/releazer
 ```
 
 Releazer is the marketing backend; the agent supplies the tools.

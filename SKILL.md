@@ -30,10 +30,12 @@ Don't use for: writing product code, or internal-only changes with no external v
   - Any other channel the launch needs (social, media outlets, etc.).
 
 ## How to Run
+Install once with a symlink so `git pull` updates it: `ln -s "$PWD" ~/.agents/skills/releazer` — or drop `SKILL.md` into your agent's skills directory.
+
 After a release, point Releazer at the repo. It scans the traces, extracts what shipped, and produces a marketing package in exactly the formats the release needs.
 
 ## Procedure
-1. **Scan traces** — `git log --oneline -20`, `git diff` of the release range, recent PRs (`gh pr list`), changelog and README changes. Completion: a plain-language list of what actually changed.
+1. **Scan traces** — run `python3 scripts/scan_traces.py` (in this repo), or `git log --oneline -20` + `git diff` manually. Completion: a plain-language list of what actually changed.
 2. **Understand the product** — read the logic, not the release claims: work out how the product *actually* works. Then write the story: what shipped, who it's for, what it gives them.
 3. **Rewrite to human language** — turn technical diffs into "what this means for you", stripping jargon.
 4. **Triage importance** — full launch, or just a log entry? Small/dull changes accumulate quietly; meaningful ones get the full package.

@@ -4,7 +4,7 @@
 Releazer 67 is an AI-agent skill that turns shipped code into launch marketing automatically. It scans a repo's code traces (commits, PRs, diffs, changelogs) and generates media pitches, social posts, ad campaigns, training videos, docs, and knowledge-base entries.
 
 ## How to use it
-1. Copy SKILL.md into your agent's skills directory.
+1. Symlink the skill into your agent's skills directory: `ln -s "$PWD" ~/.agents/skills/releazer` (so `git pull` updates it).
 2. After a release, point the agent at the repo and invoke the releazer skill.
 3. Provide API keys only for the channels you want to use (GitHub, Dev.to, Google Ads, and others).
 
