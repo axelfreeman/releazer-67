@@ -3,7 +3,6 @@
 **You code. Releazer markets.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Status: Beta](https://img.shields.io/badge/Status-Beta-orange.svg)]()
 [![Type: AI Agent Skill](https://img.shields.io/badge/Type-AI_Agent_Skill-2563eb.svg)]()
 [![Site](https://img.shields.io/badge/Site-releazer.online-2563eb.svg)](https://releazer.online)
 [![skills.sh](https://skills.sh/b/axelfreeman/releazer-67)](https://skills.sh/axelfreeman/releazer-67)
@@ -60,11 +59,11 @@ ln -s "$PWD/releazer-67" .cursor/skills/releazer
 
 Releazer is the marketing backend; the agent supplies the tools.
 
-## Get your beta key
+## Get your free key
 
 Get it now at **[releazer.online/get-key](https://releazer.online/get-key)** — free, no credit card.
 
-Beta key: **`RELEAZER-BETA-FREE`**
+Free key: **`RELEAZER-BETA-FREE`**
 
 ## Who it's for
 
