@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schema.json",
+  "name": "releazer",
+  "version": "1.0.0",
+  "description": "Turn shipped code into launch marketing — scan git history, PRs, and diffs, then generate media pitches, social posts, ad campaigns, and release notes.",
+  "author": "Axel Freeman",
+  "license": "MIT",
+  "homepage": "https://github.com/axelfreeman/releazer-67",
+  "repository": "https://github.com/axelfreeman/releazer-67",
+  "skills": [
+    {
+      "name": "releazer",
+      "description": "Turn shipped code into launch marketing — scan git history, PRs, and diffs, then generate media pitches, social posts, ad campaigns, and release notes."
+    }
+  ],
+  "mcpServers": []
+}
