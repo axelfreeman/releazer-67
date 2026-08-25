@@ -63,7 +63,7 @@ Releazer is the marketing backend; the agent supplies the tools.
 
 Get it now at **[releazer.online/get-key](https://releazer.online/get-key)** — free, no credit card.
 
-Free key: **`RELEAZER-BETA-FREE`**
+Free key: **`RELEAZER-FREE`**
 
 ## Who it's for
 
@@ -79,14 +79,12 @@ Free key: **`RELEAZER-BETA-FREE`**
 - [FAQ](docs/faq.md) — keys, security, pricing, and who it's NOT for
 - [Changelog](CHANGELOG.md)
 
-## Roadmap
+## Shipped
 
 - [x] `SKILL.md` + core workflow
 - [x] `llms.txt` + `AGENTS.md` — AI-citation ready
 - [x] Docs: agents, how-it-works, examples, FAQ
 - [x] `releazer.online` — landing + key flow + lead capture
-- [ ] MCP wrapper for one-command install
-- [ ] Catalog listings (MCP directories, awesome-lists)
 
 ## License
 

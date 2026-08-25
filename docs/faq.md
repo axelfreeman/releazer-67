@@ -14,7 +14,7 @@ Releazer triages importance. A boring release accumulates quietly; a meaningful 
 
 ## What does it cost?
 
-The beta is free — key: `RELEAZER-BETA-FREE`. Full pricing ships with releazer.online.
+Free key: `RELEAZER-FREE` — no credit card.
 
 ## Who should NOT use it?
 
